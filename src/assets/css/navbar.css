@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1rem 2rem;        
+}
+
+
+.navbar-logo a {
+  text-decoration: none;
+  font-size: 1.75rem;  
+  font-weight: bold;
+}
+
+.logo-highlight {
+  color:#c78651db;
+;  
+}
+
+.logo-regular {
+  color: rgb(229, 94, 71);
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;  
+  margin: 0;
+  padding: 0;
+;
+}
+
+.navbar-links li {
+  margin-left: 1.5rem;  
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #F38160;  
+  font-size: 1rem;  
+  transition: color 0.3s ease;  
+}
+
+.navbar-links a:hover {
+  color: rgba(155, 154, 120, 1);  
+}
+
+
+.shopping-bag-img {
+  width: 24px;  
+  height: auto;
+  transition: filter 0.3s ease;  
+}
+
+.shopping-bag:hover .shopping-bag-img {
+  filter: brightness(0.8);  
+}
+
+
+.navbar-buttons {
+  display: flex;
+}
+
+.btn-signin, .btn-signup {
+  padding: 0.5rem 1rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-signin {
+  background-color: transparent;
+  border: 1px solid #333;  
+  color: #F38160;
+  margin-right: 0.5rem;
+}
+
+.btn-signin:hover {
+  background-color: rgba(155, 154, 120, 0.1);  
+  color: rgba(155, 154, 120, 1);
+}
+
+
+.btn-signup {
+  background-color: #F38160;  
+  border: none;
+  color: white;
+}
+
+.btn-signup:hover {
+  background-color: rgba(135, 134, 100, 1);  
+}
+
+

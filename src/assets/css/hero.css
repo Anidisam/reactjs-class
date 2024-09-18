@@ -1,0 +1,108 @@
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  align-items: center;
+  gap: 20px; 
+  padding: 40px;
+}
+
+.hero-column-1, .hero-column-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-column-1 h1, .hero-column-3 h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-column-1 p, .hero-column-3 p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  padding: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.hero-features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.hero-features span {
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.hero-features i {
+  margin-right: 0.5rem;
+  color: rgba(255, 120, 57, 1);
+}
+
+.hero-column-2 img {
+width: 650px;
+}
+
+/* Column 3: Two images stacked */
+.hero-column-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-column-3 img {
+  max-width: 100%;
+  margin-bottom: 20px; 
+  height: 200px;
+}
+
+.bottom-image {
+  margin-top: 10px;
+}
+
+/* 5-column section styling */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 40px; 
+  text-align: center; 
+  padding: 40px;
+}
+
+.icon-column img {
+  width: 80px; 
+  height: auto;
+}
+
+.icon-column h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-column p {
+  font-size: 14px;
+  color: #666;
+}
+
