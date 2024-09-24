@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/navbar.css";
-import shoppingBag from "../assets/images/shopping Bag.svg";
+import shoppingBag from "../assets/images/shopping-Bag.svg";
 
 const Navbar = () => {
   return (
@@ -29,15 +29,6 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#cart" className="shopping-bag">
-            <img
-              src={shoppingBag}
-              alt="Shopping Bag"
-              className="shopping-bag-img"
-            />
-          </a>
         </li>
       </ul>
       <div className="navbar-buttons">
